@@ -1,0 +1,12 @@
+class Solution(object):
+    def removeDuplicates(self, nums):
+        if len(nums) <= 2:
+            return len(nums)
+        i = 0
+        while i < len(nums):
+            c = nums[i]
+            if nums.count(c) > 2:
+                nums.remove(c)
+            else:
+                i += 1
+        return len(nums)
