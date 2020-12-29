@@ -11,4 +11,4 @@ Recall that arr is a mountain array if and only if:
         arr[0] < arr[1] < ... < arr[i - 1] < A[i]
         arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
         
-![Moujntain array diagram](https://github.com/uxai/valid-mountain-array/blob/main/hint_valid_mountain_array.png?raw=true)
+![Moujntain array diagram](https://github.com/uxai/leetcode-challenges/valid-mountain-array-main/blob/main/hint_valid_mountain_array.png?raw=true)
